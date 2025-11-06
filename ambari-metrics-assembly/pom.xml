@@ -1247,7 +1247,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.ambari</groupId>
-      <artifactId>ambari-metrics-host-monitoring</artifactId>
+      <artifactId>ambari-metrics-monitor</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
       <optional>true</optional>
