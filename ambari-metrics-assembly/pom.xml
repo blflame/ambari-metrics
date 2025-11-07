@@ -34,7 +34,7 @@
 
   <properties>
     <collector.dir>${project.basedir}/../ambari-metrics-timelineservice</collector.dir>
-    <monitor.dir>${project.basedir}/../ambari-metrics-host-monitoring</monitor.dir>
+    <monitor.dir>${project.basedir}/../ambari-metrics-monitor</monitor.dir>
     <aggregator.dir>${project.basedir}/../ambari-metrics-host-aggregator</aggregator.dir>
     <grafana.dir>${project.basedir}/../ambari-metrics-grafana</grafana.dir>
     <hadoop-sink.dir>${project.basedir}/../ambari-metrics-hadoop-sink</hadoop-sink.dir>

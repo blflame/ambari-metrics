@@ -61,9 +61,9 @@ CONFIG_FILE_PATH = configDefaults.get_config_file_path()
 METRIC_FILE_PATH = configDefaults.get_metric_file_path()
 CA_CERTS_FILE_PATH = configDefaults.get_ca_certs_file_path()
 
-PID_DIR = os.path.join(os.sep, "var", "run", "ambari-metrics-host-monitoring")
-PID_OUT_FILE = PID_DIR + os.sep + "ambari-metrics-host-monitoring.pid"
-EXITCODE_OUT_FILE = PID_DIR + os.sep + "ambari-metrics-host-monitoring.exitcode"
+PID_DIR = os.path.join(os.sep, "var", "run", "ambari-metrics-monitor")
+PID_OUT_FILE = PID_DIR + os.sep + "ambari-metrics-monitor.pid"
+EXITCODE_OUT_FILE = PID_DIR + os.sep + "ambari-metrics-monitor.exitcode"
 
 SERVICE_USERNAME_KEY = "TMP_AMHM_USERNAME"
 SERVICE_PASSWORD_KEY = "TMP_AMHM_PASSWORD"
